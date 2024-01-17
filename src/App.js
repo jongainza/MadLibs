@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import AddCommas from "./addCommas";
+import Madlib from "./Madlibs";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <AddCommas number={1234}></AddCommas>
+      <AddCommas number={1000000}></AddCommas>
+      <AddCommas number={9876543210}></AddCommas>
+      <AddCommas number={6}></AddCommas>
+      <AddCommas number={-10}></AddCommas>
+      <AddCommas number={-5678}></AddCommas> */}
+      <Madlib />
     </div>
   );
 }
